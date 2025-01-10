@@ -1,0 +1,3 @@
+# JavaScript Loose Comparison Bug
+
+This repository demonstrates a common JavaScript bug related to loose comparison (==) and handling of null or undefined values.  The `bug.js` file shows a function that uses loose comparison and unexpectedly returns 0 when one of the arguments is null or undefined.  The `bugSolution.js` file provides a corrected version of the function that uses strict comparison (===) for better type checking and error handling.  Understanding this difference is crucial to write more robust and predictable JavaScript code.
